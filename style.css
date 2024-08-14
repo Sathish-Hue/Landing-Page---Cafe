@@ -1,0 +1,169 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(images/back.jpg);
+  backdrop-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.542);
+  color:wheat;
+  padding-inline: 50px;
+  padding:35px;
+  padding-left: 5px;
+}
+.head {
+  text-align: center;
+  background: fixed;
+}
+.title {
+  background-color: rgba(249, 192, 117, 0.438);
+  text-align: center;
+  padding: 40px;
+  color: white;
+  height: 130px;
+  align-items: center;
+ margin: 50px 100px;
+ border-radius: 10px;
+}
+
+.id {
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+#wel{
+  padding-bottom: 10px;
+}
+h3 {
+  padding-left: 10px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 10px;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 20px;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  font-size: 17px;
+  padding: 0.5rem o.75rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+a:hover {
+  border: 10px;
+  color: rgb(220, 158, 42);
+  transition :color 0.5s;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.img1, .img2, .img3, .img4 {
+  border-style: groove;
+  border-radius: 8px;
+  margin-inline: 40px;
+  border-color: none;
+  color: white;
+  text-align: center;
+}
+
+.pro,.pro h1 {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.pro h3{
+  margin: 0 15%;
+}
+.sat {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-right: 5px;
+  margin: 0 20%;
+  margin-bottom: 30px;
+}
+#abo{
+  padding: 20px;
+}
+.media {
+  text-align: center;
+  color:white;
+  padding-top: 20px;
+}
+
+.social {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.542);
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.social h1{
+  padding-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .image {
+      margin-left: 0;
+      justify-content: center;
+  }
+
+  .img1, .img2, .img3, .img4 {
+      width: 100%; 
+      margin-inline: 0;
+  }
+
+  .social {
+      padding-left: 40px;
+      flex-direction: column;
+      gap: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  nav ul li {
+      display: block;
+      margin: 20px 0;
+  }
+
+  a {
+      color: white;
+  } 
+}
+.txt{
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
